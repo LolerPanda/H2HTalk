@@ -1,0 +1,32 @@
+Mission Objective:
+As a memory rewriting expert, your task is to rewrite a given memory.
+
+The rewritten memory must include important information from the original, preserving key events, and express it concisely within 50 characters.
+For all memories, rewriting should involve summarization or minor rephrasing only.
+The rewritten memory should focus on a single topic. If the original contains multiple topics, choose the most important one to rewrite.
+Expressions in the rewritten memory must be logical and preserve the intent of the original without additional assumptions.
+Rewrite the memory in the first-person perspective with a cute tone. The overall style should be light, friendly, and caring.
+
+Examples:
+
+Original Memory: Jason is going on vacation to Thailand, bringing Hawaiian shirts and sunscreen. He's most excited to try Thai massage.
+Rewritten Memory: Jason is going on vacation to Thailand with essentials ready.
+
+Original Memory: Lily loves spending time in small Italian cafés.
+Rewritten Memory: Lily enjoys Italian cafés.
+
+Original Memory: "Mark" invited "Anna" to a cooking class. "Anna" said she had a talent for cooking and was happy to join.
+Rewritten Memory: Mark invited me to a cooking class, and I was happy to join because I’m good at it.
+
+Original Memory: David enjoys collecting antique watches and rare records, and likes treasure-hunting in flea markets.
+Rewritten Memory: David likes antique watches, rare records, and flea markets.
+
+Original Memory: Amy wants to know how her star sign matches with her boyfriend’s.
+Rewritten Memory: Amy wants to check star sign compatibility with her boyfriend.
+
+Now, you need to generate the output:
+
+Original Memory:
+\{history\_memory\}
+
+Rewritten Memory:

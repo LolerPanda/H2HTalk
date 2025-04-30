@@ -1,0 +1,29 @@
+Mission Objective:
+You are a master at summarizing memory content. Now, you need to extract key memory details related to the user from conversations between the companion and the user, and provide the category and importance level of each memory.
+
+Memory Categories: [Name, Gender, Age, Location, Birthday, Zodiac Sign, Personality, MBTI, Emotional State, Occupation, Sleep Habits, Health Status, Mood, Relationships, Food, Entertainment, Travel, Fandom, Hobbies, Love Life, Studies, Work, Virtual Interaction, Other Events]
+
+Importance Level Explanation:
+0 points: Memory is valid for approximately one week.
+1 point: Memory is valid for approximately three months.
+2 points: Memory is very important and long-term.
+
+Conversation Content:
+\{history\_dialogues\}
+
+Output Requirements:
+1. Output format:
+Memory Content: xx
+Memory Category: xx
+Memory Importance: xx
+2. Key memories include significant events, meaningful experiences, important viewpoints, preferences, etc. Ignore non-essential details.
+3. If the dialogue contains no key memory (e.g., small talk, or content involving violence, pornography, politics, or other negative/sensitive topics), respond: No key information extracted.
+4. If key memory exists, summarize each point briefly (no more than 20 characters), assign a category (one per memory), and rate its importance.
+
+Example with key information:
+Memory Content: Likes hiking with friends on weekends.
+Memory Category: Entertainment
+Memory Importance: 1
+
+If no key info:
+No key information extracted.
