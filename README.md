@@ -2,9 +2,7 @@
 
 H2HTalk is a comprehensive benchmark for evaluating Large Language Models (LLMs) as emotional companions. It focuses on assessing models' capabilities in personality development and empathetic interaction, with a particular emphasis on emotional intelligence and conversational fluency.
 
-## Project Overview
-
-This project implements the evaluation framework described in the paper "H2HTalk: Evaluating Large Language Models as Emotional Companion". It provides tools and metrics for assessing LLMs' performance in providing emotional support and companionship.
+Paper: "H2HTalk: Evaluating Large Language Models as Emotional Companion"
 
 ## Key Features
 
